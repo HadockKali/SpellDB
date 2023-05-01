@@ -44,7 +44,7 @@ To compile the functional program yourself follow these simple steps.
    ```
 2. Open the solution
 
-3. Compile in Visual Studio 17+ for Release and Any CPU.
+3. Compile in Visual Studio 17+ for Release and Any CPU
 
 
 
