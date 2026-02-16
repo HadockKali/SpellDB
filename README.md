@@ -69,7 +69,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Copyright (c) Hadock 2023. See `LICENSE` for more information.
+Copyright (c) Hadock 2023-2026. See `LICENSE` for more information.
 
 
 
