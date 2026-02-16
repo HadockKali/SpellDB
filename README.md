@@ -76,7 +76,7 @@ Copyright (c) Hadock 2023. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Hadock - [@navruc](https://twitter.com/@navruc) - navruc.dimitri@gmail.com
+Hadock - On Discord
 
 
 Project Link: [SpellDB](https://github.com/HadockKali/SpellDB)
