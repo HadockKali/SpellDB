@@ -52,12 +52,12 @@ namespace SpellDB
                 {
                     Name = spellData[0]["id"]?.ToString(),
                     MaxRank = spellData[0]["maxrank"].ToObject<int>(),
-                    CoolDown = spellData[0]["cooldown"]?.ToObject<long[]>(),
+                    CoolDown = spellData[0]["cooldown"]?.ToObject<int[]>(),
                     CoolDownBurn = spellData[0]["cooldownBurn"]?.ToString(),
-                    Cost = spellData[0]["cost"]?.ToObject<long[]>(),
+                    Cost = spellData[0]["cost"]?.ToObject<int[]>(),
                     CostType = spellData[0]["costType"]?.ToString(),
                     MaxAmmo = spellData[0]["maxammo"]?.ToString(),
-                    Range = spellData[0]["range"]?.ToObject<long[]>(),
+                    Range = spellData[0]["range"]?.ToObject<int[]>(),
                     RangeBurn = spellData[0]["rangeBurn"]?.ToString(),
                 },
 
@@ -65,12 +65,12 @@ namespace SpellDB
                 {
                     Name = spellData[1]["id"]?.ToString(),
                     MaxRank = spellData[1]["maxrank"].ToObject<int>(),
-                    CoolDown = spellData[1]["cooldown"]?.ToObject<long[]>(),
+                    CoolDown = spellData[1]["cooldown"]?.ToObject<int[]>(),
                     CoolDownBurn = spellData[1]["cooldownBurn"]?.ToString(),
-                    Cost = spellData[1]["cost"]?.ToObject<long[]>(),
+                    Cost = spellData[1]["cost"]?.ToObject<int[]>(),
                     CostType = spellData[1]["costType"]?.ToString(),
                     MaxAmmo = spellData[1]["maxammo"]?.ToString(),
-                    Range = spellData[1]["range"]?.ToObject<long[]>(),
+                    Range = spellData[1]["range"]?.ToObject<int[]>(),
                     RangeBurn = spellData[1]["rangeBurn"]?.ToString(),
                 },
 
@@ -78,12 +78,12 @@ namespace SpellDB
                 {
                     Name = spellData[2]["id"]?.ToString(),
                     MaxRank = spellData[2]["maxrank"].ToObject<int>(),
-                    CoolDown = spellData[2]["cooldown"]?.ToObject<long[]>(),
+                    CoolDown = spellData[2]["cooldown"]?.ToObject<int[]>(),
                     CoolDownBurn = spellData[2]["cooldownBurn"]?.ToString(),
-                    Cost = spellData[2]["cost"]?.ToObject<long[]>(),
+                    Cost = spellData[2]["cost"]?.ToObject<int[]>(),
                     CostType = spellData[2]["costType"]?.ToString(),
                     MaxAmmo = spellData[2]["maxammo"]?.ToString(),
-                    Range = spellData[2]["range"]?.ToObject<long[]>(),
+                    Range = spellData[2]["range"]?.ToObject<int[]>(),
                     RangeBurn = spellData[2]["rangeBurn"]?.ToString(),
                 },
 
@@ -91,12 +91,12 @@ namespace SpellDB
                 {
                     Name = spellData[3]["id"]?.ToString(),
                     MaxRank = spellData[3]["maxrank"].ToObject<int>(),
-                    CoolDown = spellData[3]["cooldown"].ToObject<long[]>(),
+                    CoolDown = spellData[3]["cooldown"].ToObject<int[]>(),
                     CoolDownBurn = spellData[3]["cooldownBurn"]?.ToString(),
-                    Cost = spellData[3]["cost"]?.ToObject<long[]>(),
+                    Cost = spellData[3]["cost"]?.ToObject<int[]>(),
                     CostType = spellData[3]["costType"]?.ToString(),
                     MaxAmmo = spellData[3]["maxammo"]?.ToString(),
-                    Range = spellData[3]["range"]?.ToObject<long[]>(),
+                    Range = spellData[3]["range"]?.ToObject<int[]>(),
                     RangeBurn = spellData[3]["rangeBurn"]?.ToString(),
                 }
             };

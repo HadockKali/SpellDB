@@ -11,12 +11,12 @@
         {
             public string Name { get; set; }
             public int MaxRank { get; set; }
-            public long[] CoolDown { get; set; }
+            public int[] CoolDown { get; set; }
             public string CoolDownBurn { get; set; }
-            public long[] Cost { get; set; }
+            public int[] Cost { get; set; }
             public string CostType { get; set; }
             public string MaxAmmo { get; set; }
-            public long[] Range { get; set; }
+            public int[] Range { get; set; }
             public string RangeBurn { get; set; }
         }
 
@@ -24,12 +24,12 @@
         {
             public string Name { get; set; }
             public int MaxRank { get; set; }
-            public long[] CoolDown { get; set; }
+            public int[] CoolDown { get; set; }
             public string CoolDownBurn { get; set; }
-            public long[] Cost { get; set; }
+            public int[] Cost { get; set; }
             public string CostType { get; set; }
             public string MaxAmmo { get; set; }
-            public long[] Range { get; set; }
+            public int[] Range { get; set; }
             public string RangeBurn { get; set; }
         }
 
@@ -37,12 +37,12 @@
         {
             public string Name { get; set; }
             public int MaxRank { get; set; }
-            public long[] CoolDown { get; set; }
+            public int[] CoolDown { get; set; }
             public string CoolDownBurn { get; set; }
-            public long[] Cost { get; set; }
+            public int[] Cost { get; set; }
             public string CostType { get; set; }
             public string MaxAmmo { get; set; }
-            public long[] Range { get; set; }
+            public int[] Range { get; set; }
             public string RangeBurn { get; set; }
         }
 
@@ -50,12 +50,12 @@
         {
             public string Name { get; set; }
             public int MaxRank { get; set; }
-            public long[] CoolDown { get; set; }
+            public int[] CoolDown { get; set; }
             public string CoolDownBurn { get; set; }
-            public long[] Cost { get; set; }
+            public int[] Cost { get; set; }
             public string CostType { get; set; }
             public string MaxAmmo { get; set; }
-            public long[] Range { get; set; }
+            public int[] Range { get; set; }
             public string RangeBurn { get; set; }
         }
     }

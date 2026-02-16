@@ -1,4 +1,4 @@
-[![Contributors][contributors-shield]][contributors-url]
+﻿[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -28,7 +28,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-SpellDB is a C# program that parses Riot's Data Dragon champion data and generates a `SpellDB.json` file containing champion spell metadata (cooldowns, costs, ranges, etc.) for the latest League of Legends patch.
+SpellDB is a program written using C# to parse, scrape and generate a .json file with the current patch abilities of League of Legends champions. It uses the CommunityDragon API to get the ability duration, cost and range. Useful for various projects but invaluable to scripting platforms.
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -45,11 +45,6 @@ To compile the functional program yourself follow these simple steps.
 2. Open the solution
 
 3. Compile in Visual Studio 17+ for Release and Any CPU
-
-### Usage
-
-1. Build and run the `SpellDB` project.
-2. The generated file is written to the current working directory as `SpellDB.json`.
 
 
 
